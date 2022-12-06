@@ -1,7 +1,7 @@
 #include <ctime>
 #include <vector>
 
-#include <opencv2\opencv.hpp>
+#include <opencv2/opencv.hpp>
 #include "wsnnode.h"
 
 using namespace std;

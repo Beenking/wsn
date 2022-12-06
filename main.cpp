@@ -1,4 +1,4 @@
-#include <opencv2\opencv.hpp>
+#include <opencv2/opencv.hpp>
 
 #include "wsntopologybasedenergy.h"
 #include "wsnnode.h"
@@ -24,7 +24,7 @@ void  help(){
 		<<" 请按对应的数字：";
 }
 
-void main()
+int main()
 {
 	//帮助文档
 	help();
@@ -59,4 +59,5 @@ void main()
 	wsntoplogy.WSNLifeTime();
 
 	waitKey();
+	return 0;
 } 

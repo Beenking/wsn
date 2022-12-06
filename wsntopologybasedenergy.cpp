@@ -129,8 +129,7 @@ void WSNTopologyBasedEnergy::LinkNodeEachLayer()
 
 
 		//生成距离数组
-		while( LayerLeaderSeq[i].size()<unsigned int(temp1cap+1))
-
+		while( LayerLeaderSeq[i].size() < (unsigned int)(temp1cap+1))
 		{
 			WSNNode NextNode=*(temp1.begin());
 			vector<WSNNode>::iterator p;
